@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         przycisk.setOnClickListener{
             var Cena: Int =0
             var result = StringBuilder()
-            result.append("Wybrane produkty")
+            result.append("Wybrane produkty:")
             if(pizza.isChecked){
                 result.append("\nPizza 20zł")
                 Cena +=20
